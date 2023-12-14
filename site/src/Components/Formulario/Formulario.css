@@ -1,0 +1,27 @@
+.divForm {
+    display: flex; /* Use um contêiner flex para alinhar os elementos horizontalmente */
+    align-items: center; /* Alinhe os elementos verticalmente ao centro */
+    margin-bottom: 5px; /* Adicione algum espaço entre cada campo do formulário */
+    width: 100%;
+  }
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.largura{
+    width: 30%;
+}
+
+input {
+    width: 70%; /* Ocupa todo o espaço disponível no contêiner */
+    padding: 5px; /* Adicione algum espaço interno aos campos de entrada */
+  }
+
+  button{
+    width: 100%;
+  }
+
+  form{
+    width: 500px;
+  }
